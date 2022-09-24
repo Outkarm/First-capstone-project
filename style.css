@@ -10,7 +10,8 @@
 .navbar-logo,
 .org-logo-head,
 .nav-bar,
-.pop-up-menu {
+.pop-up-menu,
+.top-of-NB {
   display: none;
 }
 
@@ -390,6 +391,12 @@
   background: rgba(211, 211, 211, 0.4);
   gap: 2%;
   max-width: 550px;
+  cursor: pointer;
+}
+
+.main-program-card:hover {
+  border: #d3d3d3 2px solid;
+  transition: all 0.3s ease-in-out;
 }
 
 .image-for-program {
@@ -421,6 +428,7 @@
   display: flex;
   align-items: center;
   color: #d3d3d3;
+  width: 50%;
 }
 
 /* join button */
@@ -598,10 +606,36 @@
     display: none;
   }
 
+  .total-nav-bar {
+    position: fixed;
+  }
+
+  .top-of-NB {
+    background: #272a31;
+    padding: 10px 15%;
+    display: flex;
+    justify-content: end;
+    width: 100vw;
+  }
+
+  .social-container {
+    list-style: none;
+    display: flex;
+    gap: 24px;
+  }
+
+  .social {
+    color: #d3d3d3;
+    font-family: lato, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+
   /* navbar for desktop */
   .nav-bar {
     display: flex;
-    position: fixed;
+
+    /* position: fixed; */
     flex-direction: row;
     background-color: #fff;
     justify-content: center;
@@ -652,7 +686,7 @@
   /* main page head */
 
   #header {
-    padding-left: 15%;
+    padding: 10% 15%;
   }
 
   #About-header {
@@ -686,6 +720,7 @@
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
+    padding: 40px;
   }
 
   .main-program-card {
@@ -693,15 +728,25 @@
     flex-direction: column;
     align-items: center;
     width: 200px;
+    height: 220px;
+    padding: 10px;
   }
 
   .program-title {
-    width: 50%;
     text-align: center;
+    width: auto;
+  }
+
+  .program-icon-logo {
+    display: flex;
+    align-self: center;
+    width: 100%;
   }
 
   .program-info {
     text-align: center;
+    align-items: baseline;
+    width: 100%;
   }
 
   .see-program {
