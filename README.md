@@ -17,7 +17,7 @@
 
 ## Project Documentation
 
-- Here is the [link]() to my loom video
+- Here is the [link](https://www.loom.com/share/5640d1e796284239b2db8e63013845ab) to my loom video
 
 ## Website Mockup 📱 💻 🖥️
 
@@ -26,7 +26,7 @@
 
 ## Live Demo
 
-[Capstone I : Marvel Divide 2015]()
+[Capstone I : Marvel Divide 2015](https://outkarm.github.io/First-capstone-project/)
 
 ## Authors
 
